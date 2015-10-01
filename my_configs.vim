@@ -38,9 +38,3 @@ let macvim_skip_colorscheme=1
 set guifont=Anonymous\ Pro:h16
 
 nmap <D-Enter> :set invfu<CR><bar>:Goyo<CR><bar>:set columns=82<CR>
-"highlight ExtraWhitespace ctermbg=red guibg=red
-"match ExtraWhitespace /\s\+$/
-"autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
-"autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-"autocmd InsertLeave * match ExtraWhitespace /\s\+$/
-"autocmd BufWinLeave * call clearmatches()
